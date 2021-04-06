@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-btn {
+  padding: 0.8rem;
+  border: none;
+  margin: 0.5rem 2rem;
+  flex: 1;
+  border-radius: 20px;
+  background-color: var(--contrast-color);
+  transition: 0.5s;
+}
+.nav-btn:hover {
+  background-color: var(--contrast-color);
+  opacity: 95%;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.nav-btn:focus {
+  outline: none;
+  border-radius: 5px;
+}

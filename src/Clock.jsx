@@ -13,11 +13,12 @@ const Clock = () => {
   }, 1000);
 
   return <>
-    <div className="content">
+    <section className="main-content">
       <div className="box">
         <h1>{cTime}</h1>
       </div>
-    </div>
+    </section>
+
   </>
 };
 
